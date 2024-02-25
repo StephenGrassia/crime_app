@@ -1,5 +1,5 @@
-streamlit as st
-seaborn as sns
-pandas as pd
-matplotlib.pyplot as plt
-numpy as np
+streamlit==1.31.1
+seaborn==0.13.2
+pandas==2.2.0
+matplotlib==3.8.3
+numpy==1.26.4
