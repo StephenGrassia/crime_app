@@ -106,6 +106,7 @@ with barchart:
         y='count'
     )
     plt.xticks(rotation=45, ha='right')
+    plt.title(f"{offenses}")
     plt.xlabel("Subdivision")
     plt.ylabel("Count of Incidents")
 
