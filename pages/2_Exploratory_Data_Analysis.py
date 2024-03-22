@@ -55,7 +55,7 @@ st.code(code1, language='python')
 countRows = len(df)
 countRows
 
-count_text = f"So, between ***2018-01-01*** to ***{today}***, there have been ***{countRows}*** incidents where the police have been called."
+count_text = f"So, between ***2019-01-01*** to ***{today}***, there have been ***{countRows}*** incidents where the police have been called."
 st.markdown(count_text)
 st.markdown(
     '''
@@ -73,7 +73,7 @@ st.dataframe(top5_offenses)
 
 st.markdown(
     '''
-    #### Since 2018, the offense with the most incidents is ***Larceny, From Motor Vehicle*** with a count of ***13,325.***
+    #### Since 2019, the offense with the most incidents is ***Larceny, From Motor Vehicle*** with a count of ***13,325.***
     #### The above code will get the rows in the dataframe that contain one of the ***Top 5 Offenses***. Below, we can subset to show rows that have the corresponding ***Offense_Description***.
     '''
 )
